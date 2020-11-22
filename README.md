@@ -5,7 +5,8 @@ How to Run:
 2. cd visaApp
 3. rename '.env.example' to '.env'
 4. Enter mysql shell with 'mysql -u [username] -p
-    -Enter password
+   
+   -Enter password
 5. Run "CREATE DATABASE _dbname_" and then exit shell
 6. Update environment variables DB_DATABASE, DB_USERNAME, and DB_PASSWORD to fit your created database and credentials.
 7. Run "php artisan migrate:fresh" to run all migrations to date.
