@@ -4,9 +4,19 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use App\User;
+
 
 class Kernel extends ConsoleKernel
 {
+
+    public function ConsoleApp(){
+        echo "Here";
+        return User::all();
+    }
+
+
+
     /**
      * The Artisan commands provided by your application.
      *
