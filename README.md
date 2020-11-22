@@ -3,8 +3,8 @@ Built using Laravel and MySQL
 This app is a console based application that will populate fake data to a database using Faker, and will then allow the user to pull all users with active orders, pull all active orders, and then update the column 'updated_at' (according the order_id's parity).
 
 How to Run:
-1. git clone "https://github.com/edhale3/visaApp.git"
-2. cd visaApp
+1. git clone "https://github.com/edhale3/iVisaApp.git"
+2. cd iVisaApp
 3. composer install
 4. rename '.env.example' to '.env'
 5. Enter mysql shell with 'mysql -u [username] -p
