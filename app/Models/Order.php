@@ -8,7 +8,7 @@ use App\Models\User;
 
 use DB;
 
-
+//define relation between order and user
 class Order extends Model
 {
     public function orders()
@@ -16,9 +16,3 @@ class Order extends Model
         return $this->belongsTo(User::class);
     }
 }
-
-
-    // public static function orders()
-    // {
-    //     return DB::table('orders')->get();
-    // }

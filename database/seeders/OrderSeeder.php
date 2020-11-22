@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Order;
+use App\Models\Order;
 use Faker;
 
 class OrderSeeder extends Seeder
